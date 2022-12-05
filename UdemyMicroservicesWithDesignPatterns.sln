@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSourcing.Shared", "EventSourcing.Shared\EventSourcing.Shared.csproj", "{3E10DBC3-C5C4-4E61-8259-6378683FACAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSourcing.API", "EventSourcing.API\EventSourcing.API.csproj", "{8B4E5FB3-E512-444F-A55C-056ECD7BC75E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E10DBC3-C5C4-4E61-8259-6378683FACAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E10DBC3-C5C4-4E61-8259-6378683FACAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E10DBC3-C5C4-4E61-8259-6378683FACAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E10DBC3-C5C4-4E61-8259-6378683FACAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4E5FB3-E512-444F-A55C-056ECD7BC75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4E5FB3-E512-444F-A55C-056ECD7BC75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4E5FB3-E512-444F-A55C-056ECD7BC75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4E5FB3-E512-444F-A55C-056ECD7BC75E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B4C40A2-D827-4A3D-B2D1-291DA019948D}
+	EndGlobalSection
+EndGlobal
